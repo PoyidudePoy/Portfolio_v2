@@ -1,0 +1,47 @@
+/* default mobile layout */
+* {
+
+box-sizing: border-box;
+
+}
+body {
+
+margin: 0;
+padding: 0;
+min-height: 100vh;
+font-family: 'Inter', Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+
+}
+
+.header {
+
+width: 30%;
+height: auto;
+
+
+}
+
+.navbar {
+
+font-size: 0.8rem;
+
+}
+
+.navbar a {
+
+text-decoration: none;
+display: flex;
+margin-top: 5rem;
+margin-left: 1rem;
+padding: 0.5rem;
+color: black;
+font-size: 1.0rem;
+}
