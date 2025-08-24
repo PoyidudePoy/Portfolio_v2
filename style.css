@@ -1,61 +1,68 @@
     /* default mobile layout */
     * {
 
-    box-sizing: border-box;
+        box-sizing: border-box;
 
     }
+
     body {
 
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
 
     }
 
     .container {
 
         width: 100%;
-        max-width: 600px;
         height: auto;
 
     }
 
-    .header {
 
-    width: 30%;
-    height: auto;
-    
-
-
-    }
 
 
     .navbar {
 
-    font-size: 0.8rem;
-    flex-direction: column;
-    transition: 0.3 ease;
-    display: flow-root;
-    padding-top: 2rem;
-    overflow: hidden;
-    max-height: 0;
 
-   
+        width: 40%;
+        font-size: 1.8rem;
+        flex-direction: column;
+        display: flow-root;
+        padding-top: 2rem;
+        position: fixed;
+        top: 0;
+        left: -250px;
+        height: 100%;
+        background-color: #f4f4f4;
+        transition: left 0.3s ease;
+
+
+
+
     }
 
     .navbar a {
 
-    text-decoration: none;
-    display: flex;
-    margin: 0;
-    margin-top: 2rem;
-    margin-left: 0.5rem;
-    color: black;
-    font-size: 1.0rem;
-    border-radius: 5px;
-    transition: 0.2s;
-    padding: 0.75rem 1rem;
+        text-decoration: none;
+        display: flex;
+        margin: 0;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        color: black;
+        font-size: 1.1rem;
+        border-radius: 5px;
+        transition: 0.2s;
+        padding:  0.5rem;
+        font-weight: 700;
+    }
+    .navbar i {
+
+        margin-right: 8px;
+
+
     }
 
     .navbar a:hover {
@@ -70,22 +77,24 @@
         position: fixed;
         border-radius: 5px;
         padding: 0.75rem 1rem;
+        z-index: 1;
+        font-weight: 900;
 
-    }   
+    }
 
     .hamburger:hover {
 
-        background-color:#ddd;
         transition: 0.2s ease;
-
-    }
-
-    #nav-toggle:checked + .header .navbar {
-
-        max-height: 30%;
-        
+        background-color: #f4f4f4;
 
 
 
     }
-    
+
+    #nav-toggle:checked ~ .navbar {
+
+        left: 0;
+
+
+
+    }
