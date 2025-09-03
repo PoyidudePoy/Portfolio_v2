@@ -3,6 +3,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
     * {
 
         box-sizing: border-box;
@@ -190,7 +191,7 @@
         width: 40%;
         height: 100%;
         border-radius: 20%;
-         margin-left: 28%;
+        margin-left: 28%;
 
     }
 
@@ -204,6 +205,7 @@
         margin-bottom: 0.5rem;
 
     }
+
     .firstSection p {
 
         width: 90%;
@@ -213,3 +215,74 @@
         font-family: 'Public Sans', Courier, monospace;
         margin-top: 0.8rem;
     }
+
+    #line {
+        width: 90%;
+        background-color: rgb(127, 102, 102);
+        height: 0.5px;
+        margin-top: 7%;
+        margin-left: 4%;
+
+
+    }
+
+    .secondSection {
+
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .secondSection h4 {
+        font-family: "Libertinus Serif Display", Courier, monospace;
+        margin-left: 1.3rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #452c63;
+        margin-top: 1rem;
+        margin-bottom: 0;
+
+
+    }
+
+    .mainContent .secondSection .radius {
+
+        width: 90%;
+        background-color: rgb(242, 249, 249);
+        height: 10%;
+        padding: 5%;
+        border-radius: 50px;
+        margin: 5%;
+        border: 0.1px solid rgb(209, 209, 209);
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+
+
+
+
+    }
+
+    .secondSection .radius i {
+
+        color: #452c63;
+        font-size: 1.3rem;
+        margin: 0;
+        border-radius: 20px;
+        background-color: antiquewhite;
+        padding: 1%;
+
+
+    }
+
+     .secondSection .radius p {
+
+        margin: 0;
+        margin-left: 5%;
+        color: #452c63;
+        vertical-align: middle;
+
+
+
+     }
