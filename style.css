@@ -325,8 +325,8 @@
         font-family: "Libertinus Serif Display", Courier, monospace;
         color: #452c63;
         margin: 0;
-        margin-top: 15%;
-        margin-left: 5%;
+        margin-top: 4rem;
+        margin-left: 1rem;
         font-size: 1.3rem;
 
 
@@ -368,6 +368,81 @@
         margin-top: 0.5rem;
 
        }
+
+       /* contacts section */
+
+       header h1 {
+
+        text-align: center;
+        margin: 0;
+        margin-top: 4rem;
+        font-size: 1.3rem;
+        font-family: "Libertinus Serif Display", Courier, monospace;
+        color: #452c63;
+
+
+        
+
+       }
+
+       .contactSection .icons {
+
+        width: 90%;
+        background-color:#f4f4f4;
+        padding: 0.5%;
+        border-radius: 50px;
+        border: 0.1px solid rgb(209, 209, 209);
+        margin-left: 1rem;
+        margin-top: 1rem;
+     
+
+
+       }
+       .icons a {
+
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        color: #452c63;
+       }
+
+       
+
+
+       .icons a i {
+
+        font-size: 1.8rem;
+        color: #8869e7;
+
+       
+
+       }
+
+        .icons a i:hover {
+
+          color: #ddd;
+
+
+       }
+       .icons p {
+
+        font-weight: 600;
+        font-family: 'Inter', Courier, monospace;
+        margin-left: 0.5rem;
+        color: #452c63;
+
+
+       }
+
+       .icons a p:hover {
+
+        color: #ddd;
+
+
+       }
+
+
 
       
 
