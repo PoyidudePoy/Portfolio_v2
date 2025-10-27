@@ -29,8 +29,6 @@
     }
 
 
-
-
     .navbar {
 
 
@@ -298,12 +296,13 @@
 
     }
 
+
     .portfolioSection {
 
         display: flex;
         flex-direction: column;
         align-items: center;
-       
+
 
 
     }
@@ -317,7 +316,7 @@
         margin-top: 10%;
         margin-left: 2%;
         border: 0.1px solid rgb(209, 209, 209);
-      
+
     }
 
     .portfolioSection h4 {
@@ -327,22 +326,22 @@
         margin: 0;
         margin-top: 4rem;
         margin-left: 1rem;
-        font-size: 1.3rem;
+        font-size: 1.7rem;
 
 
 
     }
 
-     .portfolioSection .radius2 .top {
+    .portfolioSection .radius2 .top {
 
         display: flex;
         align-items: center;
 
 
 
-     }
+    }
 
-     .portfolioSection .radius2 i {
+    .portfolioSection .radius2 i {
 
         font-size: 1.7rem;
         margin: 0;
@@ -350,28 +349,29 @@
         color: #452c63;
         margin-right: 0.5rem;
 
-     }
-     .portfolioSection .radius2 h5 {
+    }
 
-        font-size: 0.9rem;
+    .portfolioSection .radius2 h5 {
+
+        font-size: 1.0rem;
         color: #452c63;
         font-weight: 600;
         margin: 0;
 
-     }
+    }
 
-       .portfolioSection .radius2 p {
+    .portfolioSection .radius2 p {
 
-        font-size: 0.9rem;
+        font-size: 1.0rem;
         color: #452c63;
         margin: 0;
         margin-top: 0.5rem;
 
-       }
+    }
 
-       /* contacts section */
+    /* contacts section */
 
-       header h1 {
+    header h1 {
 
         text-align: center;
         margin: 0;
@@ -381,69 +381,109 @@
         color: #452c63;
 
 
-        
 
-       }
 
-       .contactSection .icons {
+    }
+
+    .contactSection .icons {
 
         width: 90%;
-        background-color:#f4f4f4;
+        background-color: #f4f4f4;
         padding: 0.5%;
         border-radius: 50px;
         border: 0.1px solid rgb(209, 209, 209);
         margin-left: 1rem;
         margin-top: 1rem;
-     
 
 
-       }
-       .icons a {
+
+    }
+
+    .icons a {
 
         display: flex;
         text-decoration: none;
         align-items: center;
         justify-content: center;
         color: #452c63;
-       }
-
-       
+    }
 
 
-       .icons a i {
+
+
+    .icons a i {
 
         font-size: 1.8rem;
         color: #8869e7;
 
-       
-
-       }
-
-        .icons a i:hover {
-
-          color: #ddd;
 
 
-       }
-       .icons p {
+    }
 
+    .icons a i:hover {
+
+        color: #ddd;
+    }
+
+    .icons p {
         font-weight: 600;
         font-family: 'Inter', Courier, monospace;
         margin-left: 0.5rem;
         color: #452c63;
+    }
 
-
-       }
-
-       .icons a p:hover {
-
+    .icons a p:hover {
         color: #ddd;
+    }
+
+    /* Hobbies Section */
+
+    #line3 {
+
+        width: 90%;
+        background-color: rgb(127, 102, 102);
+        height: 0.5px;
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+
+    #hobbie {
+
+        margin-top: 2.5rem;
+    }
+
+    .hobbieSection {
+
+        display: flex;
+        width: 90%;
+        border: 0.1px solid rgb(209, 209, 209);
+        background-color: rgb(242, 249, 249);
+        border-radius: 10px;
+        margin: 1rem;
+        padding: 2%;
+    }
+
+    .hobbieSection p {
+
+        color: #452c63;
+        font-family: "Libertinus Serif Display", Courier, monospace;
+        font-weight: 800;
+        font-size: 1.2rem;
+        margin: 0;
+        margin-left: 0.80rem;
+        margin-top: 0.80rem;
+        width: 70%;
 
 
-       }
+    }
 
-
+    .hobbieSection img {
 
       
+        width: 20%;
+        margin-right: 5%;
+              
 
-      
+
+
+    }
