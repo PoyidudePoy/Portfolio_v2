@@ -1,0 +1,144 @@
+/* tablet Layout */
+
+
+@media (min-width: 768px) {
+
+    .navbar {
+
+        width: 40%;
+        flex-direction: column;
+        display: flow-root;
+        position: fixed;
+        top: 0;
+        left: -310px;
+        height: 100%;
+        background-color: #f4f4f4;
+        transition: left 0.3s ease;
+
+    }
+
+    .navbar a {
+
+        text-decoration: none;
+        display: flex;
+        margin: 0;
+        margin-top: 3.5rem;
+        margin-left: 0.5rem;
+        padding: 1rem;
+        color: black;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        transition: 0.2s;
+        padding: 0.5rem;
+        font-weight: 700;
+    }
+
+    .navbar i {
+
+        margin-right: 25px;
+
+    }
+
+    .navbar a:hover {
+
+        background-color: #ddd;
+      
+    }
+
+    .hamburger {
+
+        font-size: 2rem;
+        margin-left: 0.5rem;
+        position: fixed;
+        border-radius: 5px;
+        padding: 0.75rem 1rem;
+        z-index: 1;
+        font-weight: 900;
+        background-color: none  ;
+
+    }
+
+    .hamburger:hover {
+
+        transition: 0.2s ease;
+        background-color: none;
+        
+    }
+
+    #nav-toggle:checked~.navbar {
+
+        left: 0;
+
+    }
+
+/* index.html content styles */
+
+
+    
+
+   .mainContent .intro {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #452c63;
+        font-family: 'Public Sans', Arial, Helvetica, sans-serif;
+
+
+
+    }
+
+    .mainContent .intro p {
+
+        font-weight: 800;
+        margin: 0;
+        margin-top: 1.0rem;
+        margin-bottom: 1.0rem;
+        font-size: 1.5rem;
+       
+     
+
+    }
+
+    .mainContent .intro h2 {
+
+        margin: 0;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+       
+
+
+    }
+
+    footer .more {
+
+        margin-top: 5rem;
+        text-align: center;
+        font-family: 'Public Sans', Courier, monospace;
+    }
+
+    .more a {
+
+        margin: 0;
+        font-size: 1.5rem;
+        padding: 1.3rem;
+        background-color: #452c63;
+        color: white;
+        border-radius: 25px;
+        text-decoration: none;
+
+    }
+
+    .mainContent .intro img {
+
+        width: 30%;
+        margin: 0;
+        align-self: center;
+        margin-top: 15%;
+
+
+    }
+
+
+}
