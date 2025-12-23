@@ -169,6 +169,15 @@
 
     }
 
+    #line {
+
+
+        margin: 0;
+        display: flow-root;
+        margin-left: 5%;
+        margin-top: 5%
+    }
+
     .firstSection h4 {
 
         margin: 0;
@@ -266,12 +275,58 @@
 
 
     }
+
     .portfolioSection .radius2 {
 
 
         margin-top: 5%;
 
 
+
+    }
+
+    /* for contacts.html */
+
+    .contactSection {
+
+        height: auto;
+    }
+
+    header h1 {
+
+        font-size: 2rem;
+
+
+    }
+
+    .contactSection .icons {
+
+        margin-left: 1rem;
+        margin-top: 2rem;
+
+
+
+    }
+
+    .icons a i {
+
+        font-size: 2rem;
+
+
+
+
+    }
+
+    .icons p {
+        font-weight: 600;
+        font-family: 'Inter', Courier, monospace;
+        margin-left: 0.5rem;
+        color: #452c63;
+        font-size: 1.5rem;
+    }
+
+    .icons a p:hover {
+        color: #ddd;
 
     }
 

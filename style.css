@@ -16,7 +16,7 @@
         padding: 0;
         min-height: 100vh;
         font-family: 'Inter', Arial, Helvetica, sans-serif;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(253, 254, 255);
 
     }
 
@@ -43,7 +43,8 @@
         height: 100%;
         background-color: #f4f4f4;
         transition: left 0.3s ease;
-        
+        z-index: 1;
+
 
 
 
@@ -84,7 +85,7 @@
         position: fixed;
         border-radius: 5px;
         padding: 0.75rem 1rem;
-        z-index: 1;
+        z-index: 2;
         font-weight: 900;
         background-color: none;
     }
@@ -194,8 +195,7 @@
         text-align: center;
         color: #452c63;
         margin-top: 1.2rem;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-        margin-bottom: 0.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif margin-bottom: 0.5rem;
 
     }
 
@@ -215,7 +215,7 @@
         height: 0.5px;
         margin-top: 7%;
         margin-left: 4%;
-
+        display: flow-root;
 
     }
 
@@ -402,13 +402,13 @@
         color: #452c63;
     }
 
-   
+
 
 
     .icons a i {
 
         font-size: 1.8rem;
-       
+
 
 
 
@@ -420,19 +420,19 @@
 
     }
 
-     .icons a .fa-instagram {
+    .icons a .fa-instagram {
 
         color: rgb(215, 119, 135);
 
     }
 
-     .icons a .fa-github {
+    .icons a .fa-github {
 
-       color: rgb(166, 28, 166);
+        color: rgb(166, 28, 166);
 
     }
 
-  
+
 
     .icons a i:hover {
 
@@ -465,18 +465,68 @@
     #hobbie {
 
         margin-top: 2.5rem;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
     }
 
     .hobbieSection {
 
+        position: relative;
         display: flex;
         width: 90%;
         border: 0.1px solid rgb(209, 209, 209);
-        background-color: rgb(242, 249, 249);
+        background-color: rgb(255, 255, 255);
         border-radius: 10px;
         margin: 1rem;
-        padding: 2%;
+
+
     }
 
-   
+    .hobbieSection img {
+
+        margin: 0;
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .hobbieSection .overlay {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: 100%;
+
+
+
+
+    }
+
+    .hobbieSection .text {
+        position: absolute;
+        top: 90%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-weight: 400;
+        width: 60%;
+        font-family: 'inter', Times, serif;
+
+
+    }
+
+
+    .hobbieSection .text p {
+        margin: 0;
+
+
+
+    }
+
+    #special {
+
+
+        font-weight: 800;
+        color: antiquewhite;
+
+    }
