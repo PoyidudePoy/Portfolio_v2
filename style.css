@@ -3,6 +3,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
 
     * {
 
@@ -15,9 +16,9 @@
         margin: 0;
         padding: 0;
         min-height: 100vh;
-        font-family: 'Inter', Arial, Helvetica, sans-serif;
-        background-color: rgb(253, 254, 255);
-        
+        font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+        background-color: #FFFFED;
+
     }
 
     .container {
@@ -34,16 +35,16 @@
 
         width: 40%;
         font-size: 1.8rem;
-        flex-direction: column;
         display: flow-root;
         padding-top: 2rem;
         position: fixed;
         top: 0;
         left: -250px;
         height: 100%;
-        background-color: #f4f4f4;
+        background-color: #FFFFED;
         transition: left 0.3s ease;
         z-index: 1;
+
 
 
 
@@ -76,6 +77,12 @@
     .navbar a:hover {
 
         background-color: #ddd;
+    }
+
+     .DesktopText {
+
+        display: none;
+
     }
 
     .hamburger {
@@ -113,7 +120,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Plus Jakarta Sans', Helvetica, sans-serif;
 
 
 
@@ -128,7 +135,7 @@
         margin-bottom: 0.3rem;
         font-size: 1.3rem;
         color: #452c63;
-        
+
 
     }
 
@@ -144,21 +151,21 @@
 
     }
 
-    .mainContent .intro img {
+    .intro img {
 
-        width: 50%;
+        width: 40%;
         margin: 0;
-        margin-left: 25%;
+        margin-left: 5%;
         margin-top: 15%;
 
 
     }
 
-    footer .more {
+    .intro .more {
 
         margin-top: 5rem;
         text-align: center;
-        font-family: 'Public Sans', Courier, monospace;
+        font-family: 'Plus Jakarta Sans', Courier, monospace;
     }
 
     .more a {
@@ -210,7 +217,7 @@
         color: #452c63;
         font-family: 'Public Sans', Courier, monospace;
         margin-top: 0.8rem;
-       
+
     }
 
     #line {
@@ -246,7 +253,7 @@
     .mainContent .secondSection .radius {
 
         width: 90%;
-        background-color: rgb(242, 249, 249);
+        background-color: #FFFFED;
         height: 10%;
         padding: 4%;
         border-radius: 50px;
@@ -308,7 +315,7 @@
     .portfolioSection .radius2 {
 
         width: 90%;
-        background-color: rgb(242, 249, 249);
+        background-color: #FFFFED;
         padding: 4%;
         border-radius: 50px;
         margin-top: 10%;
@@ -386,7 +393,7 @@
     .contactSection .icons {
 
         width: 90%;
-        background-color: #f4f4f4;
+        background-color: #FFFFED;
         padding: 0.5%;
         border-radius: 50px;
         border: 0.1px solid rgb(209, 209, 209);
@@ -519,15 +526,13 @@
 
     .hobbieSection .text p {
         margin: 0;
-        
+
 
 
 
     }
 
-*
-
-    #special {
+    * #special {
 
 
         font-weight: 800;
@@ -535,4 +540,4 @@
 
     }
 
-    
+   
