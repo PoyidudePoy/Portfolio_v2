@@ -62,7 +62,6 @@
         color: black;
         font-size: 1.1rem;
         border-radius: 5px;
-        transition: 0.2s;
         padding: 0.5rem;
         font-weight: 700;
     }
@@ -76,10 +75,10 @@
 
     .navbar a:hover {
 
-        background-color: #ddd;
+        background-color: none;
     }
 
-     .DesktopText {
+    .DesktopText {
 
         display: none;
 
@@ -94,7 +93,7 @@
         padding: 0.75rem 1rem;
         z-index: 2;
         font-weight: 900;
-        background-color: none;
+        background-color:  #FFFFED;
     }
 
     .hamburger:hover {
@@ -178,6 +177,12 @@
         border-radius: 10px;
         text-decoration: none;
 
+    }
+
+    .more a:hover {
+        color: antiquewhite;
+        background-color: rgb(174, 136, 161);
+        transition: 0.5s;
     }
 
     /* about.me section */
@@ -285,6 +290,7 @@
         margin-left: 5%;
         color: #452c63;
         vertical-align: middle;
+        font-weight: 600;
 
     }
 
@@ -539,5 +545,3 @@
         color: antiquewhite;
 
     }
-
-   
