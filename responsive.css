@@ -794,6 +794,93 @@
 
     }
 
+    /* portfolio Section */
+
+  #line2 {
+
+        width: 90%;
+        background-color: rgb(127, 102, 102);
+        height: 0.5px;
+        margin-top: 1rem;
+        margin-left: 4%;
+
+
+    }
+
+
+    .portfolioSection {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    .portfolioSection .radius2 {
+
+        width: 90%;
+        background-color: #FFFFED;
+        padding: 4%;
+        border-radius: 50px;
+        margin-top: 2%;
+        margin-left: 2%;
+        border: 0.1px solid rgb(209, 209, 209);
+
+    }
+
+    .portfolioSection h4 {
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #452c63;
+        margin: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+
+
+
+    }
+
+    .portfolioSection .radius2 .top {
+
+        display: flex;
+        align-items: center;
+
+
+
+    }
+
+    .portfolioSection .radius2 i {
+
+        font-size: 1.7rem;
+        margin: 0;
+        padding: 0;
+        color: #452c63;
+        margin-right: 0.5rem;
+
+    }
+
+    .portfolioSection .radius2 h5 {
+
+        font-size: 1.0rem;
+        color: #452c63;
+        font-weight: 600;
+        margin: 0;
+
+    }
+
+    .portfolioSection .radius2 p {
+
+        font-size: 1.0rem;
+        color: #452c63;
+        margin: 0;
+        margin-top: 0.5rem;
+
+    }
+
+
    
 
 
